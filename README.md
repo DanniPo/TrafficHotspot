@@ -13,7 +13,6 @@ The raw crash dataset is too large to keep in this repository.
 ## Included files
 
 - `Cali.ipynb`: full exploratory notebook workflow
-- `generate_clusters_map.py`: script version that creates an interactive cluster map
 - `requirements.txt`: Python dependencies
 
 ## Setup
@@ -22,13 +21,11 @@ The raw crash dataset is too large to keep in this repository.
 pip install -r requirements.txt
 ```
 
-## Run script
+## Run
 
-```bash
-python generate_clusters_map.py
-```
+Open `Cali.ipynb` in Jupyter and run the cells in order.
 
 Notes:
-- Update `CSV_PATH` in `generate_clusters_map.py` to your local crash CSV file.
+- Update your CSV input path in the notebook to your local crash dataset.
 - Generated HTML map files are intentionally gitignored.
 - Local dataset files are intentionally gitignored.
