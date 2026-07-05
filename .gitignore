@@ -1,0 +1,15 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated maps and large local artifacts
+*.html
+*.tif
+
+# VS Code local workspace files
+.vscode/
+*.code-workspace

@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+geopandas
+contextily
+folium
+hdbscan
+pyproj
+scikit-learn
